@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgba(240, 240, 240, 0.714);
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:100vh;
+    width:300vh;
+}
+
+form
+{
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-content:space-between;
+    width:350px;
+    height:40%;
+    flex-direction: column;
+    border-radius:30px;
+    border-width:40px;
+    margin:80px 40px 20px;
+    padding:20px 30px;
+}
+
+form div button
+{
+  background-color: black;
+  color:white;
+  font-size:14px;
+  height:40px;
+}
+
+form h1
+{
+    font-weight:bolder;
+    font-size:40px;
+    text-align: center;
+}
+
+.alert_empty
+{
+    background-color:red;
+    border-width:10px;
+    height:30px;
+}
+
+.alert_addition, .alert_removal
+{
+    background-color:rgb(25, 203, 25);
+    border-width:10px;
+    height:30px;
+}
+
+ul button
+{
+    background-color:black;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+    width:40px;
+}
+
+ul li
+{
+    background-color: black;
+    color:white;
+    height:40px;
+    font-size:25px;
+    text-align:center;
+    width:250px;
+    margin:4px;
+}
+
+input
+{
+    height:40px;
+    font-size:20px;
+    border-style: inset;
+}
+
+.list /*ul*/
+{
+    list-style-type:none;
+    border-spacing:5px;
+}
+
+.taskdiv
+{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
